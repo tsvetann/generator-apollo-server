@@ -1,0 +1,40 @@
+{
+  "name": "generator-apollo-server",
+  "version": "1.0.0",
+  "description": "Yeoman generator for apollo graphql servier",
+  "homepage": "https://github.com/tsvetann",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "apollo server",
+    "graphql"
+  ],
+  "author": {
+    "name": "Tsvetan Nikolov",
+    "email": "t.nikolov@itelekt.com",
+    "url": "https://www.itelekt.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^4.1.0"
+  },
+  "files": [
+    "generators"
+  ],
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "yeoman-assert": "^3.1.1",
+    "yeoman-test": "^2.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/vendor",
+      "/.history"
+    ]
+  }
+}
